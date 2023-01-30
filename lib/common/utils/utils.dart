@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 
-import '../../custom_exception.dart';
+import 'custom_exception.dart';
 import '../../themes/app_theme.dart';
 
 void showSnackBar(

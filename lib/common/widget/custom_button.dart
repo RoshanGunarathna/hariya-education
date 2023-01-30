@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:hariya_education_institute/themes/app_theme.dart';
 import 'package:hariya_education_institute/themes/colors.dart';
-import 'package:hariya_education_institute/custom_exception.dart';
+import 'package:hariya_education_institute/common/utils/custom_exception.dart';
 
 class CustomButton extends StatelessWidget {
   final int language;

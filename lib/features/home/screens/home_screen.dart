@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 
-import '../../../auth/screens/login_screen.dart';
 import 'package:hariya_education_institute/themes/app_theme.dart';
 
 import '../../../common/widget/custom_button.dart';
 import '../../../themes/colors.dart';
+import '../../auth/screens/login_screen.dart';
 
-class LandingScreen extends StatefulWidget {
+class HomeScreen extends StatefulWidget {
   static const routeName = '/landing-screen';
-  LandingScreen({super.key});
+  HomeScreen({super.key});
 
   @override
-  State<LandingScreen> createState() => _LandingScreenState();
+  State<HomeScreen> createState() => _HomeScreenState();
 }
 
-class _LandingScreenState extends State<LandingScreen> {
+class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
     // TODO: implement initState

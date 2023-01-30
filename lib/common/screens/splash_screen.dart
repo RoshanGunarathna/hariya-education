@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:hariya_education_institute/features/landing/screens/landing_screen.dart';
+import 'package:hariya_education_institute/features/home/screens/home_screen.dart';
 import 'package:hariya_education_institute/themes/app_theme.dart';
 
-import '../themes/colors.dart';
+import '../../themes/colors.dart';
 
 class SplashScreen extends StatefulWidget {
   SplashScreen({super.key});
@@ -21,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   void nextScreen() {
     Future.delayed(Duration(seconds: 5), () {
-      Navigator.pushReplacementNamed(context, LandingScreen.routeName);
+      Navigator.pushReplacementNamed(context, HomeScreen.routeName);
     });
   }
 

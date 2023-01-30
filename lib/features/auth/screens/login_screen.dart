@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hariya_education_institute/auth/controller/auth_controller.dart';
+
 import 'package:hariya_education_institute/common/utils/utils.dart';
 import 'package:hariya_education_institute/common/widget/custom_button.dart';
 import 'package:hariya_education_institute/themes/app_theme.dart';
 
-import '../../themes/colors.dart';
+import '../../../themes/colors.dart';
+import '../controller/auth_controller.dart';
 
 class LoginScreen extends ConsumerStatefulWidget {
   static const routeName = '/login-screen';

@@ -3,12 +3,13 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hariya_education_institute/auth/controller/auth_controller.dart';
+
 import 'package:hariya_education_institute/common/utils/utils.dart';
 import 'package:hariya_education_institute/themes/app_theme.dart';
 import 'package:hariya_education_institute/themes/colors.dart';
 
-import '../../common/widget/custom_button.dart';
+import '../../../common/widget/custom_button.dart';
+import '../controller/auth_controller.dart';
 
 class UserInformationScreen extends ConsumerStatefulWidget {
   static const String routeName = '/UserInformation';

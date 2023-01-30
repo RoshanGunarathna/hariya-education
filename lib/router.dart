@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:hariya_education_institute/auth/screens/login_screen.dart';
-import 'package:hariya_education_institute/auth/screens/otp_screen.dart';
-import 'package:hariya_education_institute/auth/screens/otp_verifying_notification_screen.dart';
-import 'package:hariya_education_institute/auth/screens/user_information.dart';
+
 import 'package:hariya_education_institute/common/widget/error.dart';
-import 'package:hariya_education_institute/features/landing/screens/landing_screen.dart';
+import 'package:hariya_education_institute/features/home/screens/home_screen.dart';
+
+import 'features/auth/screens/login_screen.dart';
+import 'features/auth/screens/otp_screen.dart';
+import 'features/auth/screens/otp_verifying_notification_screen.dart';
+import 'features/auth/screens/user_information.dart';
 
 Route<dynamic> generateRoute(RouteSettings settings) {
   switch (settings.name) {
@@ -12,8 +14,8 @@ Route<dynamic> generateRoute(RouteSettings settings) {
       return MaterialPageRoute(
         builder: (context) => const LoginScreen(),
       );
-    case LandingScreen.routeName:
-      return MaterialPageRoute(builder: (context) => LandingScreen());
+    case HomeScreen.routeName:
+      return MaterialPageRoute(builder: (context) => HomeScreen());
     case OTPScreen.routeName:
       final String verificationId = settings.arguments as String;
       return MaterialPageRoute(

@@ -7,7 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hariya_education_institute/firebase_options.dart';
 import 'package:hariya_education_institute/router.dart';
 
-import 'screens/splash_screen.dart';
+import 'common/screens/splash_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

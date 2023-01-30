@@ -4,14 +4,15 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:hariya_education_institute/auth/screens/otp_screen.dart';
-import 'package:hariya_education_institute/auth/screens/otp_verifying_notification_screen.dart';
-import 'package:hariya_education_institute/auth/screens/user_information.dart';
+
 import 'package:hariya_education_institute/common/repositories/common_firebase_storage_repository.dart';
 import 'package:hariya_education_institute/common/utils/utils.dart';
 import 'package:hariya_education_institute/models/user_model.dart';
 
-import '../../screens/mobile_layout_screen.dart';
+import '../../home/screens/home_screen.dart';
+import '../screens/otp_screen.dart';
+import '../screens/otp_verifying_notification_screen.dart';
+import '../screens/user_information.dart';
 
 final authRepositoryProvider = Provider(
   ((ref) => AuthRepository(
@@ -105,7 +106,7 @@ class AuthRepository {
         await firestore.collection('users').doc(uid).set(user.toMap());
         Navigator.pushAndRemoveUntil(
             context,
-            MaterialPageRoute(builder: (context) => const MobileLayoutScreen()),
+            MaterialPageRoute(builder: (context) => HomeScreen()),
             (route) => false);
       }
     } catch (e) {
