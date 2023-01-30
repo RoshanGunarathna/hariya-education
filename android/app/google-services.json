@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "495420997350",
+    "project_id": "hariya-education-institute",
+    "storage_bucket": "hariya-education-institute.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495420997350:android:13aba71bd78f3179acc527",
+        "android_client_info": {
+          "package_name": "com.example.hariya_education_institute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "495420997350-54aqh36iu8ete0jpg02qi26f2t6amauv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hariya_education_institute",
+            "certificate_hash": "a3c10ce84a88e91c8a58830c3710b8c3a9759b55"
+          }
+        },
+        {
+          "client_id": "495420997350-g5cgmibfdtnngdu2fbsrvk1ejd9bth4c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyFhqOAnvlGZ5terdhMMbX4ayYSv4Xh-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "495420997350-g5cgmibfdtnngdu2fbsrvk1ejd9bth4c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
